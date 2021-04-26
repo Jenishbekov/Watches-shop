@@ -1,0 +1,102 @@
+body{
+    background-color: #000;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h4,h5,h6,p,span,div,a,li,ul,section,body
+{
+    margin:0;
+    padding: 0;
+}
+
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33% !important;
+}
+.col-5{
+    width: 41.65%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.31%;
+}
+.col-8{
+    width: 66.34%;
+}
+.col-9{
+    width: 74.97%;
+}
+.col-10{
+    width: 83.3%;
+}
+.col-11{
+    width: 91.63%;
+}
+.col-12{
+    width: 100%;
+}
+.section__title{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.section__line{
+    width: 120px;
+    height: 1px;
+    background-color: white;
+    margin: 50px auto;
+    
+}
+.section__button{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 12px 28px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid;
+    transition: 0.7;
+    cursor: pointer;
+}
+.section__button:hover{
+    border: 1px solid transparent;
+    background-color:white;
+    opacity: 0.6;
+    color: black;
+    transform: scale(1.2);
+}

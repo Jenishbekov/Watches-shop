@@ -1,0 +1,28 @@
+.arrival__background{
+    background-color: #191B1C;
+    display: flex;
+    flex-direction: row;
+    background-color: #191B1C;
+    width: 100%;
+    align-items: center;
+    padding: 55px 10px;
+    justify-content: center;
+}
+.arrival__title{
+    padding-top: 120px;
+}
+.arrival__item{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin: 25px;
+}
+.arrival__name{
+    margin: 10px 5px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,13 @@
+.brend{
+    background-color: #0F0F0F;
+}
+.section__title{
+    padding-top: 60px;
+}
+.brend__images{
+    display: flex;
+    justify-content: space-between;
+}
+.brend__jewerly{
+    padding: 80px 30px;
+}

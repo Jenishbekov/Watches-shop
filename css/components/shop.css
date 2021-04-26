@@ -1,0 +1,53 @@
+.shop{
+    background-image: url(../images/png/Rectangle\ 15.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0 100px ;
+}
+.shop__title{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.shop__text{
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.shop__link{
+    background-color: #0F0F0F;
+    padding: 10px 20px;
+    color: white;
+}
+.shop__link:hover{
+    
+}
+.shop__links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop__input{
+    background-color: #FFFFFF;
+}
+.shop__button{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background-color: black;
+    outline: none;
+    border: none;
+    position: absolute;
+}

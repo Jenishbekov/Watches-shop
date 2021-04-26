@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import"./components/base.css";
+@import"./components/header.css";
+@import"./components/hero.css";
+@import"./components/season.css";
+@import"./components/collection.css";
+@import"./components/arrival.css";
+@import"./components/brend.css";
+@import"./components/shop.css";
+@import"./components/footer.css";
+@import"./media/index.css";
+

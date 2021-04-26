@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wacthes</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+          <div class="container">
+              <div class="row header__row">
+                  <div class="header__top--left">
+                    <div class="header__info">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.6 13.6667C7.87817 13.6631 5.26886 12.5803 3.34425 10.6557C1.41964 8.73112 0.336841 6.1218 0.333313 3.39999C0.333313 2.58666 0.656407 1.80665 1.23152 1.23153C1.80663 0.656423 2.58665 0.333328 3.39998 0.333328C3.57221 0.332016 3.74415 0.347647 3.91331 0.379995C4.07685 0.404195 4.23762 0.444388 4.39331 0.499995C4.50281 0.538414 4.60039 0.60475 4.67639 0.692443C4.75239 0.780136 4.80418 0.886147 4.82665 0.999995L5.73998 4.99999C5.7646 5.10857 5.76163 5.22158 5.73136 5.32872C5.70108 5.43585 5.64445 5.5337 5.56665 5.61333C5.47998 5.70666 5.47331 5.71333 4.65331 6.13999C5.30998 7.58057 6.46211 8.73743 7.89998 9.39999C8.33331 8.57333 8.33998 8.56666 8.43331 8.47999C8.51294 8.40219 8.61079 8.34556 8.71792 8.31528C8.82506 8.28501 8.93807 8.28204 9.04665 8.30666L13.0466 9.21999C13.1568 9.24556 13.2587 9.29876 13.3427 9.37457C13.4267 9.45037 13.49 9.5463 13.5266 9.65333C13.5829 9.81157 13.6253 9.9744 13.6533 10.14C13.6801 10.3075 13.6935 10.477 13.6933 10.6467C13.681 11.4565 13.3488 12.2286 12.7693 12.7944C12.1897 13.3602 11.4099 13.6738 10.6 13.6667ZM3.39998 1.66666C2.94081 1.66842 2.50095 1.8516 2.17627 2.17628C1.85158 2.50097 1.6684 2.94083 1.66665 3.39999C1.66841 5.76872 2.61017 8.03992 4.28511 9.71486C5.96005 11.3898 8.23125 12.3316 10.6 12.3333C11.0591 12.3316 11.499 12.1484 11.8237 11.8237C12.1484 11.499 12.3316 11.0592 12.3333 10.6V10.38L9.23998 9.66666L9.04665 10.0333C8.74665 10.6133 8.52665 11.0333 7.96665 10.8067C6.8619 10.4112 5.85911 9.77468 5.03114 8.94325C4.20316 8.11181 3.5708 7.10638 3.17998 5.99999C2.93998 5.47999 3.39331 5.23999 3.96665 4.93999L4.33331 4.75999L3.61998 1.66666H3.39998Z" fill="#969696"/>
+                        </svg>
+                        <p>8 (812) 123-45-67 </p>
+                        <p>|</p>
+                        <p>Работаем 7 дней в неделю </p>
+                        <p>|</p>
+                        <p>9:00 — 18:00</p>
+                    </div>
+                       
+                  </div>
+                  <div class="header__top--right">
+                    <div class="header__login">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.25001 1.16675H10.5C11.1417 1.16675 11.6667 1.69175 11.6667 2.33341V11.6667C11.6667 12.3084 11.1417 12.8334 10.5 12.8334H5.25001C4.60834 12.8334 4.08334 12.3084 4.08334 11.6667V10.5001H5.25001V11.6667H10.5V2.33341H5.25001V3.50008H4.08334V2.33341C4.08334 1.69175 4.60834 1.16675 5.25001 1.16675Z" fill="#969696"/>
+                            <path d="M5.88583 9.09409L6.70833 9.91658L9.625 6.99992L6.70833 4.08325L5.88583 4.90575L7.39083 6.41659H1.75V7.58325H7.39083L5.88583 9.09409Z" fill="#969696"/>
+                        </svg>
+                        <p>Войти </p>
+                        <p>/ Регистрация</p>
+                    </div>
+                        
+                  </div>
+
+              </div>
+          </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="row header__row">
+                    <div class="header__logo">
+                        <svg class="logo" width="102" height="26" viewBox="0 0 102 26"  xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.476562 25V0.390625H4.41406V25H0.476562ZM6.20703 13.8906V10.0586H8.5625C10.2734 10.0586 11.1992 9.22656 11.3398 7.5625C11.3398 7.42188 11.3398 7.28125 11.3398 7.14062C11.1758 5.28906 10.25 4.31641 8.5625 4.22266H6.20703V0.390625H8.87891C13.1445 0.460938 15.2891 2.6875 15.3125 7.07031C15.3125 10.4688 14.2344 12.5898 12.0781 13.4336C11.1875 13.7383 10.1211 13.8906 8.87891 13.8906C8.83203 13.8906 7.94141 13.8906 6.20703 13.8906ZM17.2461 18.1445V6.57812C17.2461 5.33594 17.7734 4.07031 18.8281 2.78125C20.2344 1.09375 22.0156 0.238281 24.1719 0.214844V4.11719C22.9531 4.14062 22.0391 4.79688 21.4297 6.08594C21.2422 6.50781 21.1484 6.85938 21.1484 7.14062V18.1445C21.1484 19.4102 21.8047 20.3477 23.1172 20.957C23.5156 21.1445 23.8555 21.2383 24.1367 21.2383V25.1758C22.8008 25.1758 21.4648 24.6953 20.1289 23.7344C18.2305 22.3281 17.2695 20.4648 17.2461 18.1445ZM26.0703 25.1758V21.2383C26.6797 21.2383 27.3125 20.957 27.9688 20.3945C28.6719 19.7617 29.0352 19.0117 29.0586 18.1445V7.14062C29.0586 6.4375 28.7539 5.75781 28.1445 5.10156C27.5586 4.46875 26.8672 4.14062 26.0703 4.11719V0.214844C28.4375 0.214844 30.3359 1.23438 31.7656 3.27344C32.5859 4.44531 32.9961 5.54688 32.9961 6.57812V18.1445C32.9961 20.7461 31.8359 22.7383 29.5156 24.1211C28.2969 24.8242 27.1484 25.1758 26.0703 25.1758ZM35.8086 25V0.390625H39.7461V25H35.8086ZM41.5391 14.6289V11.1133H43.5078C45.5469 11.1133 46.6719 10.1406 46.8828 8.19531C46.9062 7.98438 46.918 7.78516 46.918 7.59766C46.918 5.62891 46.0273 4.46875 44.2461 4.11719C43.918 4.07031 43.5781 4.04688 43.2266 4.04688H41.5391V0.390625H43.6836C46.8008 0.460938 48.8984 1.62109 49.9766 3.87109C50.4219 4.80859 50.6445 5.88672 50.6445 7.10547C50.6211 9.70703 49.8242 11.5938 48.2539 12.7656C49.4727 13.4688 50.2461 14.7227 50.5742 16.5273C50.6211 16.832 50.6562 17.1133 50.6797 17.3711L51.2773 25H47.6211L47.0938 18.7422C46.9062 16.7734 46.3789 15.5312 45.5117 15.0156C44.9961 14.7578 44.3516 14.6289 43.5781 14.6289H41.5391ZM52.6836 4.22266V0.390625H67.9062V4.22266H62.2812V25H58.3438V4.22266H52.6836ZM69.9453 25V0.390625H82.7422V4.25781H73.8828V10.7969H79.4375V14.7344H73.8828V21.0977H82.7422V25H69.9453ZM85.5898 25V6.64844H85.8711L89.5273 12.5195V25H85.5898ZM85.5898 2.92188V0.390625H88.8594L101.234 20.2539V25H99.3359L85.5898 2.92188ZM97.2969 10.6562V0.390625H101.234V16.5273H100.953L97.2969 10.6562Z" />
+                        </svg>
+                     </div>
+                    <div class="header__nav">
+                        <ul class="nav__menu">
+                            <li class="nav__item"><a href="#" class="nav__link">Понравилось</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">личный кабинет</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">настройки</a></li>
+                        </ul>
+                        <div class="header__icons">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.0035 6.81175C19.9192 6.6899 19.8066 6.59031 19.6754 6.5215C19.5441 6.45269 19.3982 6.41672 19.25 6.41667H6.72193L5.66409 3.8775C5.52539 3.54312 5.29052 3.25746 4.98927 3.05673C4.68801 2.856 4.33393 2.74925 3.97193 2.75H1.83334V4.58334H3.97193L8.32059 15.0196C8.39025 15.1866 8.50775 15.3292 8.65831 15.4295C8.80887 15.5298 8.98575 15.5834 9.16668 15.5833H16.5C16.8823 15.5833 17.2242 15.3459 17.3589 14.9893L20.1089 7.656C20.1609 7.51724 20.1785 7.36794 20.1601 7.22091C20.1417 7.07387 20.088 6.93348 20.0035 6.81175ZM15.8648 13.75H9.77809L7.48643 8.25H17.9273L15.8648 13.75Z" fill="white"/>
+                                <path d="M9.625 19.25C10.3844 19.25 11 18.6344 11 17.875C11 17.1156 10.3844 16.5 9.625 16.5C8.86561 16.5 8.25 17.1156 8.25 17.875C8.25 18.6344 8.86561 19.25 9.625 19.25Z" fill="white"/>
+                                <path d="M16.0417 19.25C16.801 19.25 17.4167 18.6344 17.4167 17.875C17.4167 17.1156 16.801 16.5 16.0417 16.5C15.2823 16.5 14.6667 17.1156 14.6667 17.875C14.6667 18.6344 15.2823 19.25 16.0417 19.25Z" fill="white"/>
+                            </svg>
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.25 15.4167L12.5255 10.6922C13.3989 9.36482 13.7487 7.76053 13.5072 6.18999C13.2657 4.61945 12.4501 3.19437 11.2182 2.19068C9.98634 1.18698 8.42587 0.67606 6.83892 0.756838C5.25197 0.837616 3.75144 1.50434 2.62785 2.62794C1.50425 3.75153 0.837524 5.25206 0.756746 6.83901C0.675968 8.42596 1.18689 9.98643 2.19058 11.2183C3.19428 12.4502 4.61936 13.2658 6.1899 13.5073C7.76044 13.7488 9.36473 13.399 10.6922 12.5256L15.4167 17.2501L17.25 15.4167ZM2.58332 7.16675C2.58332 4.6395 4.63941 2.58341 7.16666 2.58341C9.69391 2.58341 11.75 4.6395 11.75 7.16675C11.75 9.694 9.69391 11.7501 7.16666 11.7501C4.63941 11.7501 2.58332 9.694 2.58332 7.16675Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+               <div class="hero__content">
+                   <div class="hero__rectangle">
+                    <svg width="181" height="46" viewBox="0 0 181 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.9375 45V1.25H7.9375V45H0.9375ZM11.125 25.25V18.4375H15.3125C18.3542 18.4375 20 16.9583 20.25 14C20.25 13.75 20.25 13.5 20.25 13.25C19.9583 9.95833 18.3125 8.22917 15.3125 8.0625H11.125V1.25H15.875C23.4583 1.375 27.2708 5.33333 27.3125 13.125C27.3125 19.1667 25.3958 22.9375 21.5625 24.4375C19.9792 24.9792 18.0833 25.25 15.875 25.25C15.7917 25.25 14.2083 25.25 11.125 25.25ZM30.75 32.8125V12.25C30.75 10.0417 31.6875 7.79167 33.5625 5.5C36.0625 2.5 39.2292 0.979167 43.0625 0.9375V7.875C40.8958 7.91667 39.2708 9.08333 38.1875 11.375C37.8542 12.125 37.6875 12.75 37.6875 13.25V32.8125C37.6875 35.0625 38.8542 36.7292 41.1875 37.8125C41.8958 38.1458 42.5 38.3125 43 38.3125V45.3125C40.625 45.3125 38.25 44.4583 35.875 42.75C32.5 40.25 30.7917 36.9375 30.75 32.8125ZM46.4375 45.3125V38.3125C47.5208 38.3125 48.6458 37.8125 49.8125 36.8125C51.0625 35.6875 51.7083 34.3542 51.75 32.8125V13.25C51.75 12 51.2083 10.7917 50.125 9.625C49.0833 8.5 47.8542 7.91667 46.4375 7.875V0.9375C50.6458 0.9375 54.0208 2.75 56.5625 6.375C58.0208 8.45833 58.75 10.4167 58.75 12.25V32.8125C58.75 37.4375 56.6875 40.9792 52.5625 43.4375C50.3958 44.6875 48.3542 45.3125 46.4375 45.3125ZM63.75 45V1.25H70.75V45H63.75ZM73.9375 26.5625V20.3125H77.4375C81.0625 20.3125 83.0625 18.5833 83.4375 15.125C83.4792 14.75 83.5 14.3958 83.5 14.0625C83.5 10.5625 81.9167 8.5 78.75 7.875C78.1667 7.79167 77.5625 7.75 76.9375 7.75H73.9375V1.25H77.75C83.2917 1.375 87.0208 3.4375 88.9375 7.4375C89.7292 9.10417 90.125 11.0208 90.125 13.1875C90.0833 17.8125 88.6667 21.1667 85.875 23.25C88.0417 24.5 89.4167 26.7292 90 29.9375C90.0833 30.4792 90.1458 30.9792 90.1875 31.4375L91.25 45H84.75L83.8125 33.875C83.4792 30.375 82.5417 28.1667 81 27.25C80.0833 26.7917 78.9375 26.5625 77.5625 26.5625H73.9375ZM93.75 8.0625V1.25H120.812V8.0625H110.812V45H103.812V8.0625H93.75ZM124.438 45V1.25H147.188V8.125H131.438V19.75H141.312V26.75H131.438V38.0625H147.188V45H124.438ZM152.25 45V12.375H152.75L159.25 22.8125V45H152.25ZM152.25 5.75V1.25H158.062L180.062 36.5625V45H176.688L152.25 5.75ZM173.062 19.5V1.25H180.062V29.9375H179.562L173.062 19.5Z" fill="white"/>
+                    </svg>
+                        <h3 class="hero__title">санкт-петербург</h3>
+                   </div>
+                   <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum purus, est tortor pulvinar ut in.
+                        Fringilla a diam enim sed justo, sed iaculis sagittis. Tortor id eu interdum nec ut iaculis. 
+                        Penatibus ullamcorper ultricies morbi ipsum sem metus pharetra, mi. 
+                        Tortor nibh magna feugiat id nunc, dui nisl viverra.</p>
+               </div>
+            </div>
+        </section>
+        <section class="season">
+            <div class="row">
+                <div class="col-7">
+                    <div class="season__left">
+                        <h3 class="section__title season__title">
+                            СЕЗОН 2020/21
+                        </h3>
+                        <div class="section__line"></div>
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                        <div class="col-4 swiper-slide">
+                                            <div class="season__item ">
+                                             <div class="season__watch  ">
+                                                 <img class="season__image" src="./images/png/62050 1.png" alt="watch">
+                                             </div>
+                                             <span class="season__name">Louis XVI ATHOS</span>
+                                             <span class="season__price">165 000 руб.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 swiper-slide ">
+                                            <div class="season__item ">
+                                             <div class="season__watch ">
+                                                 <img class="season__image" src="./images/png/62050 1.png" alt="watch">
+                                             </div>
+                                             <span class="season__name">Louis XVI ATHOS</span>
+                                             <span class="season__price">165 000 руб.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 swiper-slide ">
+                                            <div class="season__item ">
+                                             <div class="season__watch ">
+                                                 <img class="season__image" src="./images/png/62050 1.png" alt="watch">
+                                             </div>
+                                             <span class="season__name">Louis XVI ATHOS</span>
+                                             <span class="season__price">165 000 руб.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 swiper-slide ">
+                                            <div class="season__item ">
+                                             <div class="season__watch ">
+                                                 <img class="season__image" src="./images/png/62050 1.png" alt="watch">
+                                             </div>
+                                             <span class="season__name">Louis XVI ATHOS</span>
+                                             <span class="season__price">165 000 руб.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 swiper-slide ">
+                                            <div class="season__item ">
+                                             <div class="season__watch ">
+                                                 <img class="season__image" src="./images/png/62050 1.png" alt="watch">
+                                             </div>
+                                             <span class="season__name">Louis XVI ATHOS</span>
+                                             <span class="season__price">165 000 руб.</span>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <!-- <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div> -->
+                                <div class="swiper-scrollbar"></div>
+                            </div>
+                          
+                    </div>
+                </div>
+            <div class="col-5">
+                <div class="season__right">
+                    <div class="season__right--content">
+                            <h3 class="section__title">
+                                Новая коллекция 
+                            <h3>
+                            <div class="section__line"></div>
+                            <button class="section__button">
+                                Каталог
+                            </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="collection">
+            <div class="row">
+                <div class="col-5">
+                    <div class="collection__left">
+
+                    </div>
+                </div>
+                <div class="col-7">
+                    <div class="collection__right">
+                        <h3 class="section__title">коллекция 2018</h3>
+                        <div class="section__line"></div>
+                            <p class="collection__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Non rutrum ornare ut mattis habitant dui arcu. 
+                            Sagittis amet nunc ut neque quis nibh arcu. Vivamus vestibulum nisi et venenatis sed scelerisque magna consectetur.
+                            Amet convallis quis gravida facilisis vulputate. Faucibus facilisi habitasse ipsum interdum dictum aliquet. 
+                            Velit quis ullamcorper pulvinar nulla malesuada integer. Aenean praesent viverra nulla nullam natoque volutpat curabitur auctor. Viverra viverra ullamcorper scelerisque risus dignissim egestas.
+                            Id aliquam a aliquam egestas leo orci pharetra sed diam. 
+                            </p>
+                            <button class="season__button section__button">посмотреть коллекцию</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="arrival">
+            <div class="container">
+                <div class="arrival__title">
+                    <h3 class="section__title">новые поступления</h3>
+                    <div class="section__line"></div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="arrival__item">
+                            <div class="arrival__background">
+                                <img src="./images/png/62050 1.png" alt="">
+                            </div>
+                            <span class="arrival__name">Louis XVI ATHOS</span>
+                            <span class="arrival__name">165 000 руб.</span>
+                        </div>
+                    </div>
+                    <!-- .col-3>.arrival__item>.arrival__background+.arrival__name*2 -->
+                    <div class="col-3">
+                        <div class="arrival__item">
+                            <div class="arrival__background">
+                                <img src="./images/png/62050 1.png" alt="">
+                            </div>
+                            <span class="arrival__name">Louis XVI ATHOS</span>
+                            <span class="arrival__name">165 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="arrival__item">
+                            <div class="arrival__background">
+                                <img src="./images/png/62050 1.png" alt="">
+                            </div>
+                            <span class="arrival__name">Louis XVI ATHOS</span>
+                            <span class="arrival__name">165 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="arrival__item">
+                            <div class="arrival__background">
+                                <img src="./images/png/62050 1.png" alt="">
+                            </div>
+                            <span class="arrival__name">Louis XVI ATHOS</span>
+                            <span class="arrival__name">165 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="arrival__item">
+                            <div class="arrival__background">
+                                <img src="./images/png/62050 1.png" alt="">
+                            </div>
+                            <span class="arrival__name">Louis XVI ATHOS</span>
+                            <span class="arrival__name">165 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="arrival__item">
+                            <div class="arrival__background">
+                                <img src="./images/png/62050 1.png" alt="">
+                            </div>
+                            <span class="arrival__name">Louis XVI ATHOS</span>
+                            <span class="arrival__name">165 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="arrival__item">
+                            <div class="arrival__background">
+                                <img src="./images/png/62050 1.png" alt="">
+                            </div>
+                            <span class="arrival__name">Louis XVI ATHOS</span>
+                            <span class="arrival__name">165 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="arrival__item">
+                            <div class="arrival__background">
+                                <img src="./images/png/62050 1.png" alt="">
+                            </div>
+                            <span class="arrival__name">Louis XVI ATHOS</span>
+                            <span class="arrival__name">165 000 руб.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brend">
+            <div class="container">
+                <div class="brend__title">
+                    <h3 class="section__title">наши бренды</h3>
+                    <div class="section__line"></div>
+                </div>
+                <div class="row">
+                    <div class="swiper-container ">
+                        <div class="brend__images swiper-wrapper">
+                                <div class="col-3 swiper-slide">
+                                    <div class="brend__jewerly">
+                                        <img src="./images/png/Rectangle 2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-3 swiper-slide">
+                                    <div class="brend__jewerly">
+                                        <img src="./images/png/Rectangle 2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-3 swiper-slide">
+                                    <div class="brend__jewerly">
+                                        <img src="./images/png/Rectangle 2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-3 swiper-slide">
+                                    <div class="brend__jewerly">
+                                        <img src="./images/png/Rectangle 2.png" alt="">
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="shop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <h3 class="shop__title">
+                            О магазине
+                        </h3>
+                        <p class="shop__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh. Egestas amet consectetur vel vitae aliquam dictum suspendisse. Lobortis eget consequat, tellus et et sed turpis. Pretium quisque vitae, amet, porttitor odio ultricies massa pharetra leo. Et ipsum urna fames in sit mi ultrices nisi, nunc.</p>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="shop__title">Категории</h3>
+                        <div class="shop__links">
+                            <a href="" class="shop__link">часы</a>
+                            <a href="" class="shop__link">браслеты</a>
+                            <a href="" class="shop__link">ремни</a>
+                            <a href="" class="shop__link">ювелирные изделия</a>
+                            <a href="" class="shop__link">запонки</a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h3 class="shop__title">РАссылка</h3>
+                        <p class="shop__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper viverra nunc cursus tortor lectus nunc nulla nibh.</p>
+                        <input type="text" class="shop__input" placeholder="ваша почта">
+                        <button class="shop__button">ПОДПИСАТЬСЯ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"> 
+        <div class="container">
+            <div class="footer__texting row">
+                <p class="footer__text">© 2020 Все права защищены</p>
+                <span class="footer__span">Сделано Figma.info</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="././js/index.js"></script>
+</body>
+</html>
